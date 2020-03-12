@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Webpage Title -->
+    <title>Hello, world!</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <!-- 구글폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+
+    <!-- style -->
+    <style type="text/css">
+        * {
+            font-family: 'Stylish', sans-serif;
+        }
+
+        .wrap {
+            width: 500px;
+            margin: auto;
+        }
+
+        .title {
+            color: white;
+            background-image:
+                url('https://t1.daumcdn.net/cfile/tistory/99B47E3A5B3D761427');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            border-radius: 10px;
+        }
+
+        .product-title {
+            font-size: 50px;
+            margin: 0 20px 0 0;
+        }
+
+        .porduct-desc {
+            margin: 0 15px 0 0;
+            font-size: 18px;
+            padding: 0 0 0 20px;
+        }
+
+        .comment {
+            color: blue;
+            font-weight: bold;
+        }
+
+        .form-post {
+            max-width: 500px;
+            padding: 2rem;
+            margin: 2rem auto;
+            border-color: #e9ecef;
+            border-radius: 0.3rem;
+            border: solid;
+            display: block;
+        }
+
+        .submit {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="jumbotron title"></div>
+        <div>
+            <p class="lead">
+                <label class="product-title">베이글</label>
+                가격 : 1,000원 / 개
+            </p>
+            <p class="porduct-desc">
+                베이글 입니다. 크림치즈 발라 먹으면 맛있지요.
+                베이글 입니다. 크림치즈 발라 먹으면 맛있지요.
+                베이글 입니다. 크림치즈 발라 먹으면 맛있지요.
+
+
+                s
+            </p>
+            <hr class="my-4">
+        </div>
+
+        <h2>주문하기!</h2>
+
+        <!-- form -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">주문자 이름</span>
+            </div>
+            <input type="text" class="form-control" placeholder="이름을 입력하세요" aria-label="Username"
+                aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">수량</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>--수량을 선택하세요--</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">주소</span>
+            </div>
+            <input type="text" class="form-control" placeholder="주소를 입력하세요" aria-label="address"
+                aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">전화번호</span>
+            </div>
+            <input type="text" class="form-control" placeholder="연락처를 입력하세요" aria-label="phone"
+                aria-describedby="basic-addon1">
+        </div>
+
+        <!-- button -->
+        <div class="submit">
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">주문 하기</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
